@@ -5,7 +5,7 @@ module Godaddy
   class APIError < StandardError; end
 
   class Api
-    API_URL = 'https://api.godaddy.com'
+    API_URL = 'https://api.ote-godaddy.com'
 
     def initialize(apikey, apisecret)
       @headers = {
